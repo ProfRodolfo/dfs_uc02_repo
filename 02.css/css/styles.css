@@ -1,0 +1,81 @@
+/* p {
+    color: violet;
+    font-size: 90px;
+} */
+
+/* 08 - Classes */
+
+
+body{
+    padding-bottom: 500px ;
+}
+
+.paragraph{
+
+    background-color: #000;
+    color:aqua;
+    padding: 5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: beige;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* 10 */
+
+h2 {
+    border-bottom: 2px dotted red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue ;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green ;
+}
+
+/* 11 */
+
+.color-name{
+    color: crimson;
+}
+
+/* 12 - HEX */
+.hex{
+    color: #55a398
+}
+
+.hex-2{
+    color: #00eaff
+}
+
+/* 13 */
+
+.simple-hex{
+    /* color: #333333; */
+    color: #333;
+
+}
+
+.simple-hex-2{
+    /* color: #aa55ff; */
+    color: #a5f;
+}
+
+/* 14 - RGB */
+
+.rgb{
+    color: rgb(255,0,0)
+}
+
+.mixed-rgb{
+    color: rgb(199, 21, 47 )
+}
+
+.rgba{
+    color: rgba(100, 199, 45, 0.3)
+}
