@@ -79,3 +79,66 @@ h2 {
 .rgba{
     color: rgba(100, 199, 45, 0.3)
 }
+
+/* 16 hsl */
+
+.hsl{
+    color: hsl(100, 82%, 48%)
+}
+
+.hsl-2{
+    color: hsl(201, 82%, 48%)
+}
+
+/* 17 background color  */
+
+.bg{
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2{
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+/* 18 opacidade bg */
+
+.bg-opacity{
+    background-color: green;
+    opacity: 0.8;
+}
+
+.bg-opacity-2{
+    background-color: #999;
+    color: #000; 
+    opacity: 0.8;
+
+}
+/* 19  RGB com opacidade  */
+
+.rgba-opacity{
+    background-color: rgba(90,12,20, 0.2);
+    color: #000;
+}
+/* 20 bg img */
+
+.bg-image{
+    padding: 10px;
+    background-image: url(../img/nature.jpg);
+    color: #fff;
+}
+
+/* 21 centralizar img no bg */
+
+.centered-bg,
+.not-centered-bg
+{
+    background-image: url(../img/bridge.jpg);
+    height: 400px;
+    width: 400px;
+}
+.centered-bg{
+    background-position: center;
+    background-size:cover;
+}
