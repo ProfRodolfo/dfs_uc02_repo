@@ -261,3 +261,250 @@ h2 {
 }
 
 /* 31 */
+
+.box-model{
+    margin: 20px;
+    background-color: aquamarine;
+    /* padding: 15px 25px; */
+    padding: 15px 25px 15px 25px;
+    border: 2px solid red;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+}
+
+/* 32 */
+
+#box-model-desafio{
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid blue;
+    background-color: antiquewhite;
+    outline: 5px solid #952;
+}
+
+.desafio-title{
+    background-color: #55a398;
+    color: #fff;
+    border: none;
+}
+
+/* 33 -  */
+.text-aligned{
+    text-align: right;
+}
+
+.container-center{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 300px;
+    border: 2px solid red;
+    margin-left: 130px;
+    
+}
+
+/* 34 */
+
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remover-underline{
+    text-decoration: none;
+    color: red;
+}
+
+/* 35 */
+
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+/* 36 */
+.spacing{
+    letter-spacing: 5px;
+}
+
+/* 37 */
+.serif{
+    font-family: Georgia;
+}
+.sans-serfi{
+    font-family: Helvetica;
+}
+.monospace{
+    font-family: "Courier New";
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+/* 38  */
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+/* 39 */
+
+.thin,
+.bold,
+.bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{ 
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+/* 40 */
+
+.small{
+    font-size: 6px;
+}
+
+.big{
+    font-size: 78px;
+}
+
+.inline-box{
+    width: 50px; 
+    height: 50px;   
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{
+    background-color: #333;
+    margin: 10px;
+    display: block;
+}
+
+/* 42 */
+.invisible{
+    display: none;
+}
+
+/* 43 */
+
+.static{
+    position: static;
+    width: 150px; 
+    height: 150px;   
+    background-color: #4f8
+}
+
+/* 44 */
+.relative{
+    position: relative;
+    background-color: #224;
+    color:#fff;
+
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: #964;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    right: 20px;
+}
+/* 46 */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+/* 47 */
+.fixed{
+
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+/* 48 */
+
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    top: 10px;
+}
+
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #453;
+    z-index: 1;
+}
