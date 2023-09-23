@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- 1 e 2 Criando e atribuindo formlario -->
+    <h2>Formulário</h2>
+    <form action="register.php" method="get">
+        <div>
+            <!-- 03 NAME -->
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+     <!--04 atributo label  -->
+
+        <div>
+            <label for="age">Idade</label>
+            <input type="text" name="age">
+        </div>
+        <!-- 06 -->
+        <div >
+            <label for="job">Selecione uma profissão</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">tester</option>
+                <option value="devops">DevOps</option>
+            </select>
+        </div>
+
+        <!-- 07 -->
+
+        <div>
+            <label for="contract">Você leu o contrato:</label>
+            <select name="contract" >
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>   
+            </select>
+        </div>
+
+        <!-- 08 -->
+        <div>
+            <label for="items">Selecione os itens desejados:</label>
+            <select name="items" multiple>
+                <option value="arroz">Arroz</option>
+                <option value="feijao">Feijão</option>
+                <option value="cd">CD</option>
+                <option value="dvd">DVD</option>
+            </select>
+        </div>
+
+        <!-- 09 -->
+
+        <div>
+            <label for="comment">Escreva um comentario </label>
+            <textarea name="comment"></textarea>
+        </div>
+
+
+
+
+
+
+
+        <!-- 05 envio -->
+        <input type="submit" value="Enviar">
+    </form>
+
+
+<!--  -->
+    
+</body>
+</html>
