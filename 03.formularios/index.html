@@ -16,7 +16,6 @@
             <input type="text">
         </div>
      <!--04 atributo label  -->
-
         <div>
             <label for="age">Idade</label>
             <input type="text" name="age">
@@ -30,9 +29,7 @@
                 <option value="devops">DevOps</option>
             </select>
         </div>
-
         <!-- 07 -->
-
         <div>
             <label for="contract">Você leu o contrato:</label>
             <select name="contract" >
@@ -40,7 +37,6 @@
                 <option value="nao" selected>Não</option>   
             </select>
         </div>
-
         <!-- 08 -->
         <div>
             <label for="items">Selecione os itens desejados:</label>
@@ -51,20 +47,112 @@
                 <option value="dvd">DVD</option>
             </select>
         </div>
-
         <!-- 09 -->
-
         <div>
             <label for="comment">Escreva um comentario </label>
             <textarea name="comment"></textarea>
         </div>
-
         <!-- 10 -->
+        <div>
+            <fieldset>
+                <legend>Preencha as sua informações: </legend>
+                <label for="firstname">Nome:</label>
+                <input type="text" name="firstname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>  
+        <!-- 11 -->
+        <div>
+            <label for="flavor">Escolha o sabor:</label>
+            <input type="text" list="flavors" name="flavor">
 
-
-
-
-
+            <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Abacate"></option>
+                <option value="Chocolate"></option>
+            </datalist>
+        </div>
+        <!-- 12 -->
+        <div>
+            <label for="password">Digite a sua senha:</label>
+            <input type="password" name="password">
+        </div>
+        <!-- 14 -->
+        <div>
+            <label for="car_model">Escolha o modelo do seu carro:</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car_model">
+                <label for="bmw">BMW</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="ferrari" name="car_model">
+                <label for="ferrari">Ferrari</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="renault" name="car_model">
+                <label for="renault">Renault</label>
+            </div>
+        </div>
+        <!-- 15 -->
+        <div>
+            <label for="optionals">Opcionais do carro:</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="turbo_engine">
+                <label for="turbo_engine">Motor Turbo</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="hybrid">
+                <label for="hybrid">Híbrido</label>
+            </div>
+        </div>
+        <!-- 16 -->
+        <div>
+            <label for="birthday">Data de nascimento:</label>
+            <input type="date" name="birthday">
+        </div>
+        <!-- 17 -->
+        <div>
+            <label for="image">Insira sua imagem</label>
+            <input type="file" name="image">
+        </div>
+        <!-- 18 -->
+        <div>
+            <label for="salary">Qaunto você ganha no seu empregos?</label>
+            <input type="number" name="salary">
+        </div>
+        <!-- 19 -->
+        <div>
+            <label for="email">Digite o seu email:</label>
+            <input type="email" name="email">
+        </div>
+        <!-- 20 -->
+        <div>
+            <label for="value">Digite algum valor para doação:</label>
+            <input type="text" value="10 R$" name="value">
+        </div>
+        <!-- 21 -->
+        <div>
+            <p>Tente mudar o valor:</p>
+            <input type="text" value="Não consegue moises" disabled>
+        </div>
+        <!-- 22 -->
+        <div>
+            <label for="currentjob">Digite sua profissão</label>
+            <input type="text" name="currentjob" placeholder="No que você trabalha atualmente">
+        </div>
+        <!-- 23 -->     
+        <div>
+            <label for="birthday"> Ano de nacimento</label>
+            <input type="text" placeholder="Ano de nascimento" required>
+        </div>
+        <!-- 13 Resetar -->
+        <input type="reset" value="Limpar">
         <!-- 05 envio -->
         <input type="submit" value="Enviar">
     </form>
