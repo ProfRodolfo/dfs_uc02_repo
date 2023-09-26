@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Venda de Carros</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre seu veículo para vender mais rápido!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+        </div>
+        <div class="form-body">
+            <h1 class="form-title">Venda fácil seu carro</h1>
+            <p> Descreva as característica e marque os oppcionais que ele possui</p>
+            <form>
+                <div class="box-input">
+                    <label for="title"> Título do anúncio <span class="required-field">*</span></label>
+                    <input 
+                    type="text"
+                    name="title"
+                    id="title"
+                    class="block"
+                    placeholder="Um título para anunciar seu carro"
+                    minlength="1"
+                    maxlength="30"
+                    required
+                    >
+                </div>
+                <div class="box-input">
+                    <label for="price">Preço<span class="required-field">*</span></label>
+                    <input 
+                    type="number"
+                    name="price"
+                    id="price"
+                    class="block"
+                    placeholder="Defina o preço"
+                    required
+                    >
+                </div>
+                <div class="box-input">
+                    <label for="description">
+                        Descrição <span class="required-field">*</span>
+                    </label>
+                    <textarea                name="description"
+                    id="description"
+                    class="block"
+                    placeholder="Aqui você coloca os detalhes do seu carango, por exemplo: se ele é item de colecionador, motor turbo entre outros...."></textarea>
+                </div>
+                <div class="box-input">
+                    <label for="brand">
+                        Marca<span class="required-field">*</span>
+                    </label>
+                    <input 
+                    type="text"
+                    name="brand"
+                    id="brand"
+                    class="block"
+                    placeholder="Digite a marca do veículo"
+                    required
+                    >
+                </div>
+
+                <div class="box-input">
+                    <label for="model">Modelo<span class="required-field">*</span></label>
+                    <input 
+                    type="text"
+                    name="model"
+                    id="model"
+                    class="block"
+                    placeholder="Digite o modelo do veículo"
+                    required
+                    >
+                </div>
+                <div class="box-input">
+                    <label for="mileage">kilometragem<span class="required-field">*</span></label>
+                    <input 
+                    type="number"
+                    name="mileage"
+                    id="mileage"
+                    class="block"
+                    placeholder="Digite a kilometragem do veículo"
+                    required
+                    >
+                </div>
+                
+                <div class="box-input">
+                    <label for="purchase_date">Data da Compra<span class="required-field">*</span></label>
+                    <input 
+                    type="date"
+                    name="purchase_date"
+                    id="purchase_date"
+                    class="block"
+                    required
+                    >
+                </div>
+
+                <div class="box-input">
+                    <p>Tipo de câmbio<span class="required-field">*</span> </p>
+                    <input 
+                    type="radio" 
+                    id="manual"
+                    name="gear" >
+                    <label for="manual">Manual</label>
+                    <input 
+                    type="radio" 
+                    id="auto"
+                    name="gear" >
+                    <label for="auto">Automático</label>
+
+                </div>
+
+
+                
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
