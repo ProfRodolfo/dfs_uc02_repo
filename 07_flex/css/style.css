@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+}
+
+.flex-column{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 40px;
+    width: 33%;
+    border: 1px solid green
+}
+/*  */
+.center,
+.space-around,
+.space-between,
+.end {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box,
+.space-around .box,
+.space-between .box,
+.end .box {
+    width: 50px;
+}
+
+.center{
+    justify-content: center;
+}
