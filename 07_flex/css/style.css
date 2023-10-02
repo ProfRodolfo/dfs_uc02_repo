@@ -38,3 +38,132 @@
 .center{
     justify-content: center;
 }
+.space-around {
+    justify-content: space-around;
+}
+.space-between{
+    justify-content: space-between;
+}
+.end{
+    justify-content: end;
+}
+
+/* .center, */
+.align-center,
+.align-end,
+.stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.align-center .box,
+.align-end .box,
+.stretch .box {
+    width: 50px;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.align-end{
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.stretch .box {
+    height: auto;
+}
+
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid violet;
+    gap: 10px;
+    padding: 10px;
+}
+.gap .box {
+    width: 32%;
+}
+
+.order {
+    display: flex;
+}
+
+#one{
+    order: 1;
+}
+
+#two{
+    order: 2;
+}
+
+#three{
+    order: 3;
+}
+
+.grow {
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .big {
+    flex: 2;
+}
+
+.basis{
+    display: flex;
+}
+.basis .box{
+    flex-basis: 20px;
+}
+
+.basis .big {
+    flex-grow: 1 ;
+}
+
+.shrink{
+    display: flex;
+}
+
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+.shrink .small{
+    flex-shrink: flex;
+}
+
+.shorthand{
+    display: flex;
+}
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;    
+}
+.shorthand .different{
+    flex: 3 1 400px;    
+}
+
+.auto-alignment{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid blue;
+}
+.auto-alignment .different{
+    align-self: center;
+}
+
+
