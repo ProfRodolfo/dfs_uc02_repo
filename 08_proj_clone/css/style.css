@@ -132,5 +132,89 @@ body{
 }
 
 #get-app-container {
-    background-color: aqua;
+   
+    text-align: center;
+    width: 350px;
+}
+#get-app-container p{
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+#get-app-container img{
+    width: 136px;
+    height: 40px;
+}
+#get-app-container a{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    text-align: left;
+    width: 1000px;
+    max-width: 50px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+
+#footer-links{
+    display: flex;
+    margin-right: 10px;
+    
+}
+
+nav #footer-links{
+    list-style: none;
+    
+}
+#footer-links li{   
+    margin-right: 10px;
+    
+}
+#footer-links a, 
+#copyright{   
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;     
+}
+#copyright{   
+    margin-top: 10px;
+}
+
+
+/* Celular */
+
+@media (max-width: 450px) {
+    body{
+        background-color: #fff;
+    }
+    #banner-container{
+        
+        display: none;
+    }
+    #main-container,
+    #form-box {
+        margin-top: 0;
+    }
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container{
+        width: 100%;
+        border: none;
+    }
+    footer{
+        width: 90%;
+    }
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center ;
+        margin-bottom: 10px;
+    }
+    
 }
