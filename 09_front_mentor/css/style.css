@@ -118,6 +118,29 @@
   }
   
   #cancel-order {
-    background-color: aqua;
+    text-decoration: none;
+    color: #717fa6;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+    transition: color 0.3;
   }
   
+  #cancel-order:hover {
+    color:#1f2e55;
+  }
+  
+
+@media screen and (max-width:650px){
+    body{
+        background: url(../images/pattern-background-mobile.svg);
+        background-size: 100%;
+        background-repeat: no-repeat ;
+    }
+}
+
+@media screen and (max-width:960px){
+    section{
+        padding: 0 3rem;
+    }   
+}
