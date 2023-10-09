@@ -6,5 +6,34 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
 }
+
+ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    transform: rotate(-30deg) skew(25deg);
+    background: #ccc;
+}
+
+ul li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 30px !important;
+}
+
