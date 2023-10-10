@@ -1,0 +1,1 @@
+console.log("Testando js agora com script externo")
