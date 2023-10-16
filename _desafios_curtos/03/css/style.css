@@ -23,3 +23,23 @@ section{
     left: 0;
     border-right: 2px solid #262626;
 }
+
+.sliding{
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 12em;
+    line-height: 220px;
+    overflow: hidden;
+    font-family: "arial black";
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(0, -50%);
+    }
+    100%{
+        transform: translate(-50%, -50%);
+    }
+}
