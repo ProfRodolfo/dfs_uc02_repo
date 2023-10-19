@@ -54,45 +54,76 @@
 //     console.log("Número inválido")
 // }
 
-let numero = parseInt(prompt("Digite um número de 1 até 12"))
+// let numero = parseInt(prompt("Digite um número de 1 até 12"))
 
-switch (numero) {
-    case 1:
-        console.log("jan")
-        break;
-    case 2:
-        console.log("fev")
-        break;
-    case 3:
-        console.log("mar")
-        break;
-    case 4:
-        console.log("abr")
-        break;
-    case 5:
-        console.log("mai")
-        break;
-    case 6:
-        console.log("jun")
-        break;
-    case 7:
-        console.log("jul")
-        break;
-    case 8:
-        console.log("ago")
-        break;
-    case 9:
-        console.log("set")
-        break;
-    case 10:
-        console.log("out")
-        break;
-    case 11:
-        console.log("nov")
-        break;
-    case 12:
-        console.log("dez")
-        break;
-    default:
-        console.log("Mês inválido")
+// switch (numero) {
+//     case 1:
+//         console.log("jan")
+//         break;
+//     case 2:
+//         console.log("fev")
+//         break;
+//     case 3:
+//         console.log("mar")
+//         break;
+//     case 4:
+//         console.log("abr")
+//         break;
+//     case 5:
+//         console.log("mai")
+//         break;
+//     case 6:
+//         console.log("jun")
+//         break;
+//     case 7:
+//         console.log("jul")
+//         break;
+//     case 8:
+//         console.log("ago")
+//         break;
+//     case 9:
+//         console.log("set")
+//         break;
+//     case 10:
+//         console.log("out")
+//         break;
+//     case 11:
+//         console.log("nov")
+//         break;
+//     case 12:
+//         console.log("dez")
+//         break;
+//     default:
+//         //console.log("Mês inválido")
+// }
+
+// let contador = 1;
+
+// while (contador <= 50){
+//     console.log(contador)
+//     // contador++; 
+//     contador = contador + 1
+// }
+
+// let contador = 5;
+
+// do {
+//     console.log(contador)
+//     contador--
+// } while (contador > 0)
+
+// for (let i = 0; i <= 50; i+=5){
+//     console.log(i)
+// }
+
+// Escreva um programa em js que solicte um número ao usuário e exiba todos os número ímpares entre 1 e o número informado. Utilize um estrutura de repetição "laço for" para verificar se cada número entre 1 e o número informado é ímpar, e exiba os números ímpares no console
+
+let numero = parseInt(prompt("Digite um número:"))
+
+console.log("Numeros ímpares entre 1 e " + numero + ":")
+
+for(let i = 1; i<= numero; i++ ) {
+    if(i % 2 !== 0){
+        console.log(i)
+    }
 }
