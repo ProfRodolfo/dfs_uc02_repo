@@ -24,3 +24,142 @@
 section {
     padding: 50px 10%;
 }
+
+body.active{
+    --text-color: #fff;
+    --bg-color:#0f0c27;
+}
+body{
+    background:  var(--bg-color);
+    color: var(--main-color);
+}
+
+.heading{
+    
+    text-align: center;
+}
+.heading h2{
+    
+    font-size: 30px;
+}
+.heading span{
+    
+    font-size: var(--p-font);
+    color: rgb(2, 166,70)
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: 13px 10%;
+    transition: 0.2s;
+    box-shadow:  -3px -3px 7px #ffffff73, 2px 2px 5px rgba(91, 104, 121, 0.288);
+}
+
+header.shadow{
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+.logo{
+    font-size: 1.61rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.logo span{
+    font-size: 1.61rem;
+    font-weight: 600;
+    color: crimson;
+}
+
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+.navbar a:hover{
+    color: var(--hover);
+}
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+#darkmode{
+    font-size: 22px;
+    cursor:pointer;
+}
+
+.home{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+.home-img{   
+    order: 3;
+}
+
+.home-img img{
+    width: 100%;
+}
+
+.home-text span{
+    font-size: var(--medium-font);
+    font-weight: 500;
+}
+.home-text h1{
+    font-size: var(--big-font);
+}
+.home-text h2{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.home-text p{
+    font-size: var(--p-font);
+    font-weight: 400;
+    margin: 0.7rem 0 1rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: var(--text-color)
+}
+.social a:hover{
+    display: inline-block;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.btn{
+    display: inline-block;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 0.7rem 1.3rem;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background-color: var(--hover);
+}
