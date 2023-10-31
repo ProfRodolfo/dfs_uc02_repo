@@ -394,3 +394,91 @@ form textarea{
 .copyright a{
     color: #22cf91;
 }
+
+@media (max-width: 991px){
+    header{
+        padding: 18px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+}
+
+@media (max-width: 881px){
+
+    :root{
+        --big-font: 2.7rem;
+        --medium-font: 1.4rem
+    }
+}
+@media (max-width: 768px){
+    :root{
+        --big-font: 2.4rem;
+        --medium-font: 1.2rem
+    }
+    header{
+        padding: 11px 4%;
+    }
+    #menu-icon {   
+        display: initial;
+        color: var(--text-color);
+    }
+    header .navbar{
+        position: absolute;
+        top: -500px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+        box-shadow: 0 4px 4px rgb(0 0 0 /10%);
+        transition: 0.2s ease;
+        text-align: center;
+    }
+    .navbar.active{
+        top: 100%
+    }
+    .navbar a{
+        padding: 1.5rem;
+        display: block;
+        background: var(--bg-color);
+    }
+    #darkmode{
+        position: absolute;
+        top: 1.4rem;
+        right: 2rem;
+    }
+    .scroll-down{
+        display: none;
+    }
+    .home-img{
+        order: initial;
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+    }
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+    .skills-img img{
+        padding-left: 0;
+    }
+
+    .skills-img {
+        padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form form{
+        width: 300px;
+    }
+    .contact-button{
+        margin-left: 25%;
+    }
+}
