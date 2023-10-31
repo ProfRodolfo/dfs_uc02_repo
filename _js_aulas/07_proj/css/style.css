@@ -163,3 +163,234 @@ header.shadow{
 .btn:hover{
     background-color: var(--hover);
 }
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.about-img img{
+    width: 80%;
+    border-radius: 0.5rem;
+}
+
+.about-text p {
+    font-size: var(--p-font);
+    font-weight: 400;
+    text-align: justify;
+}
+
+.information{
+    margin: 1rem 0 1.4rem;
+}
+
+.information .info-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+}
+.information .info-box .bx{
+    font-size: 22px;
+}
+
+.information .info-box span{
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.skills-container {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+.skills-img img{
+    width: 80%;
+    padding-left: 4rem;
+    object-position: center;
+}
+
+.bars-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+.bars-box h3, span{
+   font-size: 1.1rem;
+   font-weight: 500;
+}
+
+.light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background: hsla(260, 100%, 44%, 0.4);
+    border-radius: 0.5rem;
+}
+
+.percent-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.5rem;
+    background: var(--main-color);
+    border-radius: 0.5rem;
+}
+
+.html-bar{
+    width: 94%;
+}
+.css-bar{
+    width: 84%;
+}
+.js-bar{
+    width: 74%;
+}
+.react-bar{
+    width: 80%;
+}
+.node-bar{
+    width: 65%;
+}
+.git-bar{
+    width: 90%;
+}
+
+.services-content {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+   justify-content: center;
+   gap: 1rem;
+   margin-top: 2rem;
+}
+.services-box{
+    padding: 20px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid var(--main-color) ;
+    box-shadow: 0 2px 7px rgb(14 55 54 /15%);
+}
+
+.services-box:hover{
+    background-color: #02225a;
+    
+}
+
+.services-box h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.7rem 0 0.4rem ;
+}
+.services-box:hover h3{
+    color: #fff
+}
+.services-box .bx{
+    padding-top: 2rem;
+    font-size: 54px;
+    color:var(--main-color)
+}
+.services-box:hover .bx{
+    color: #22cf91;
+}
+.services-box a{
+    font-weight: 500;
+    font-size: var(--p-font);
+    color:var(--main-color)
+}
+.services-box:hover a{
+    color: #8b8a8f;
+}
+
+.contact-form{
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;   
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 650px; 
+}
+
+form input, textarea{
+    padding: 15px;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: hsla(260, 100%, 44%, 0.1);
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+form input::placeholder,
+textarea::placeholder {
+    color: var(--text-color)
+}
+
+form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact-button{
+    width: 160px;
+    cursor: pointer;
+    background: #2768d9;
+    color: #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 35%;
+}
+.contact-button:hover{
+    background-color: var(--hover);
+}
+
+.footer{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    color: #000; 
+}
+.footer h2{
+  font-size: 1.5rem;
+  margin-top: 1.6rem;
+  color: var(--text-color)
+}
+
+.footer-social a i{
+    color: rgb(10, 26, 208);
+    font-size: 25px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.copyright{
+    padding: 20px;
+    background: var(--main-color);
+    text-align: center;
+    color: #fff;
+}
+
+.copyright a{
+    color: #22cf91;
+}
