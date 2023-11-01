@@ -26,13 +26,19 @@ section {
 }
 
 body.active{
-    --text-color: #fff;
+    --text-color:#fff;
     --bg-color:#0f0c27;
 }
 body{
     background:  var(--bg-color);
-    color: var(--main-color);
+    color: var(--text-color);
 }
+
+*::selection{
+    color: var(--bg-color); 
+    background: var(--main-color);
+}
+
 
 .heading{
     

@@ -24,7 +24,7 @@ darkmode.onclick = () => {
         darkmode.classList.replace("bx-moon", "bx-sun");
         document.body.classList.add("active");
     } else {
-        darkmode.classList.replace("bs-sun", "bx-moon");
+        darkmode.classList.replace("bx-sun", "bx-moon");
         document.body.classList.remove("active");
     }
 };
