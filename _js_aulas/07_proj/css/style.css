@@ -482,3 +482,29 @@ form textarea{
         margin-left: 25%;
     }
 }
+@media (max-width:340px){
+    :root{
+        --big-font: 1.7rem;
+        --medium-font: 1.1rem;
+    }
+    .home-text span{
+        font-size: 1rem;
+    }
+    .home-text h2{
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .information .info-box span{
+        
+        font-size: 1rem;
+    }
+    .contact-form form{
+        
+        width: 300px;
+    }
+
+    .contact-button{
+        
+        margin-left: 25%;
+    }
+}
