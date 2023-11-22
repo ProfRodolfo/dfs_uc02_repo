@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,35 @@
     <script src="js/scripts.js" defer></script>
     <title>Tabuada</title>
 </head>
+
 <body>
     <h2>Digite o número e confirme para gerar uma tabuada</h2>
-    <form action="" id="multiplication-form">
+    <form id="multiplication-form">
         <div class="form-control">
             <label>Tabuada do:</label>
-            <input type="number" id="number" placeholder="3">
+            <input type="number" id="number" placeholder="3" />
         </div>
         <div class="form-control">
-            <label>Multiplicar até</label>
-            <input type="number" id="multiplicator" placeholder="Digite o número de multiplicações" value="10">
+            <label>Multiplicar até:</label>
+            <input type="number" id="multiplicator" placeholder="Digite o número de multiplicações" value="10" />
         </div>
-        <input type="submit" value="Calcular">
+        <input type="submit" value="Calcular" />
     </form>
     <div id="multiplication-table">
-        <h2 id="multiplication-title">Tabuada do número <span></span></h2>
+        <h2 id="multiplication-title">Tabuada do número: <span></span></h2>
         <div id="multiplication-operations">
-            <p>Informe um número para calcular uma tabuada....</p>
-        </div>  
-        <!-- PROVISÓRIO -->
-        
-        <!-- FIM PROVISÓRIO -->
+            <p>Informe um número para calcular uma tabuada...</p>
+            <!-- PROVISÓRIO -->
+            <div class="row">
+                <div class="operation">5 x 1 </div>
+                <div class="result">5</div>
+            </div>
+            <div class="row">
+                <div class="operation">5 x 2 </div>
+                <div class="result">10</div>
+            </div>
+            <!-- FIM PROVISÓRIO -->
+        </div>
     </div>
-    
 </body>
 </html>
