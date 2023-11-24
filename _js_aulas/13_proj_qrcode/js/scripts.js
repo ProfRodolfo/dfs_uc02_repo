@@ -35,3 +35,4 @@ qrCodeInput.addEventListener("keyup", () =>{
         qrCodeBtn.innerText = "Gerar Qr Code";
     }
 });
+    
