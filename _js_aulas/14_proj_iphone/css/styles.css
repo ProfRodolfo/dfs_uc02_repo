@@ -48,10 +48,39 @@ a{
     color: #333;
 }
 
+
+#bottom-header-inner{
+    
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+} 
+#bottom-header-inner a{
+    margin: 0 0.5rem
+}
+
 #bottom-header-inner .btn, 
 .btn{
     background: #0071e3;
     border-radius: 10rem;
     padding: 0.4rem 1rem;
     color: #fff
+}
+
+/* Conteúdo */
+
+#ribbon{
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 1rem;
+    color: #333;
+    font-size: 0.8rem;
+}
+#ribbon a{
+    color: #0071e3;
+}
+
+#main-content{
+    
 }
