@@ -1,3 +1,4 @@
+/* Geral */
 * {
   margin: 0;
   padding: 0;
@@ -163,4 +164,56 @@ header nav {
   font-size: 0.7rem;
   color: #1d1d1d;
   margin-top: 0.6rem;
+}
+
+#green .color {
+  background-color: #394c38;
+}
+
+#silver .color {
+  background-color: #f1f2ed;
+}
+
+#golden .color {
+  background-color: #fae7cf;
+}
+
+#grafite .color {
+  background-color: #54524f;
+}
+
+#blue .color {
+  background-color: #a7c1d9;
+}
+
+.selected {
+  outline: 2px solid #43a1ff;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  #navbar li {
+    display: none;
+  }
+
+  #navbar #logo {
+    display: flex;
+  }
+
+  #bottom-header-links a {
+    display: none;
+  }
+
+  #bottom-header-links .btn {
+    display: flex;
+  }
+
+  #main-content {
+    padding: 2rem;
+    overflow: hidden;
+  }
+
+  #main-content #subtitle {
+    font-size: 3rem;
+  }
 }
